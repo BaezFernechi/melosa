@@ -1,0 +1,1697 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <script
+      data-goatcounter="https://lion.goatcounter.com/count"
+      async
+      src="//gc.zgo.at/count.js"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0106" />
+    <meta
+      name="description"
+      content="Siete canciones y once sorpresas dedicadas a Melisa."
+    />
+    <title>Dedicatorias · TE AMO MELISA</title>
+
+    <link rel="icon" href="ipmb.jpeg" type="image/jpeg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <noscript>
+      <style>
+        .track__panel {
+          grid-template-rows: 1fr;
+        }
+        .track--locked .track__panel {
+          grid-template-rows: 0fr;
+        }
+        .track__toggle {
+          display: none;
+        }
+        .track--locked .countdown__pending {
+          display: none;
+        }
+        .track__description {
+          margin-bottom: 1rem;
+        }
+      </style>
+    </noscript>
+  </head>
+
+  <body class="page-dedications">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <div class="backdrop" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="masthead">
+      <a class="monogram" href="index.html" aria-label="Volver al inicio">
+        <svg
+          class="monogram__icon"
+          viewBox="0 0 18 12"
+          width="18"
+          height="12"
+          fill="none"
+          aria-hidden="true"
+        >
+          <path
+            d="M1 1.5h16M1 6h16M1 10.5h16"
+            stroke="currentColor"
+            stroke-width="1.4"
+            stroke-linecap="round"
+          />
+        </svg>
+      </a>
+      <p class="masthead__note">Para Meluchi, con amor</p>
+    </header>
+
+    <main id="contenido" class="shell shell--dedications">
+      <header class="page-head">
+        <h1 class="page-head__title">Dedicatorias</h1>
+        <p class="page-head__sub">Las canciones que me traen algo de vos.</p>
+        <div class="page-head__rule" aria-hidden="true"></div>
+      </header>
+
+      <!-- ==========================================================
+         LISTA DE CANCIONES (exactamente 18)
+
+         CÓMO EDITAR LAS FILAS 1 A 7 (visibles desde el inicio):
+         1. Miniatura: cambia src="Turista.jpg" por tu imagen.
+            El CSS ya la recorta a 60 x 60 px con object-fit: cover.
+         2. Canción: cambia el texto del enlace .track__title y su
+            atributo href.
+         3. Artistas: cambia el texto de .track__artist.
+         4. Dedicatoria: cambia el párrafo dentro de .track__description.
+         5. Si añades o quitas canciones, actualiza también el
+            aria-controls y el id="panel-XX" para que sean únicos.
+
+         FILAS 8 A 18 (BLOQUEADAS CON MÁSCARA):
+         La información de cada fila ya está escrita en el HTML, pero
+         la máscara la oculta por completo hasta la fecha indicada en
+         data-unlock. Formato: AAAA-MM-DDTHH:mm:ss (hora local).
+
+         Para preparar una sorpresa, edita dentro de su fila:
+         - .track__cover  -> src de la miniatura.
+         - .track__title  -> nombre de la canción y data-href con el link.
+         - .track__artist -> artistas.
+         - .track__description -> dedicatoria que aparecerá al abrirse.
+         - data-song del botón -> texto que leen los lectores de pantalla.
+
+         Las filas 13, 14 y 15 son el trío de cumpleaños y llevan
+         además la clase track--birthday (diseño rosa festivo).
+         ========================================================== -->
+      <ol class="tracks" aria-label="Canciones dedicadas">
+        <!-- ---------------------------- CANCIÓN 01 ---------------------------- -->
+        <li class="track" data-track>
+          <div class="track__row">
+            <img
+              class="track__cover"
+              src="Turista.jpg"
+              alt="Portada de Turista"
+              width="60"
+              height="60"
+              loading="lazy"
+            />
+            <div class="track__info">
+              <a
+                class="track__title"
+                href="https://open.spotify.com/intl-es/track/7tCuCjhxzjX2XCz4JiiAsp?si=8e170115687a460c"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Escuchar Turista"
+                >Turista</a
+              >
+              <p class="track__artist">Bad Bunny</p>
+            </div>
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-01"
+              aria-label="Ver la dedicatoria de Turista"
+              data-song="Turista"
+            >
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="track__panel" id="panel-01" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la canción 01 -->
+                La escucho y aparecen los dos, sin prisa, sin testigos. Es la
+                clase de canción que no explica el amor: lo deja sonar.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ---------------------------- CANCIÓN 02 ---------------------------- -->
+        <li class="track" data-track>
+          <div class="track__row">
+            <img
+              class="track__cover"
+              src="refe1.jpg"
+              alt="Portada de Refe 1"
+              width="60"
+              height="60"
+              loading="lazy"
+            />
+            <div class="track__info">
+              <!-- [EDITA AQUÍ] Nombre de la canción y artistas -->
+              <a
+                class="track__title"
+                href="https://open.spotify.com/intl-es/track/183tgjwxjtEdcDgZndkKMc?si=ea742dac0b5c4eb0"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Escuchar Refe 1"
+                >Refe 1</a
+              >
+              <p class="track__artist">Jay Wheeler</p>
+            </div>
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-02"
+              aria-label="Ver la dedicatoria de Refe 1"
+              data-song="Refe 1"
+            >
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="track__panel" id="panel-02" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la canción 02 -->
+                Sencilla y directa, como me gustaría saber decirlo siempre. Cada
+                vez que suena, te lo digo otra vez.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ---------------------------- CANCIÓN 03 ---------------------------- -->
+        <li class="track" data-track>
+          <div class="track__row">
+            <img
+              class="track__cover"
+              src="RiskItAll.jpg"
+              alt="Portada de Contigo"
+              width="60"
+              height="60"
+              loading="lazy"
+            />
+            <div class="track__info">
+              <!-- [EDITA AQUÍ] Nombre de la canción y artistas -->
+              <a
+                class="track__title"
+                href="https://open.spotify.com/intl-es/track/5y2ijHECwFYWqcAHKTZgzD?si=e024efce318646a1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Escuchar Contigo"
+                >Risk It All</a
+              >
+              <p class="track__artist">Bruno Mars</p>
+            </div>
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-03"
+              aria-label="Ver la dedicatoria de Contigo"
+              data-song="Contigo"
+            >
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="track__panel" id="panel-03" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la canción 03 -->
+                Una canción para las noches largas y las conversaciones que no
+                queremos terminar. Contigo, incluso el ruido del mundo se vuelve
+                música.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ---------------------------- CANCIÓN 04 ---------------------------- -->
+        <li class="track" data-track>
+          <div class="track__row">
+            <img
+              class="track__cover"
+              src="romance.jpg"
+              alt="Portada de Eres"
+              width="60"
+              height="60"
+              loading="lazy"
+            />
+            <div class="track__info">
+              <!-- [EDITA AQUÍ] Nombre de la canción y artistas -->
+              <a
+                class="track__title"
+                href="AQUI_PEGAS_TU_LINK"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Escuchar Eres"
+                >La Barca</a
+              >
+              <p class="track__artist">Luis Miguel</p>
+            </div>
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-04"
+              aria-label="Ver la dedicatoria de Eres"
+              data-song="Eres"
+            >
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="track__panel" id="panel-04" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la canción 04 -->
+                Tiene la textura de las cosas que se descubren despacio. Me
+                recuerda que no hace falta entenderte del todo para quedarme.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ---------------------------- CANCIÓN 05 ---------------------------- -->
+        <li class="track" data-track>
+          <div class="track__row">
+            <img
+              class="track__cover"
+              src="htsis.jpg"
+              alt="Portada de Bendita Tu Luz"
+              width="60"
+              height="60"
+              loading="lazy"
+            />
+            <div class="track__info">
+              <!-- [EDITA AQUÍ] Nombre de la canción y artistas -->
+              <a
+                class="track__title"
+                href="https://open.spotify.com/intl-es/track/58DXqHKK7TfxUmhCq2ux4E?si=81cebd2ae7904d0c "
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Escuchar Bendita Tu Luz"
+                >Hard To Say I´m Sorry</a
+              >
+              <p class="track__artist">Chicago</p>
+            </div>
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-05"
+              aria-label="Ver la dedicatoria de Bendita Tu Luz"
+              data-song="Bendita Tu Luz"
+            >
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="track__panel" id="panel-05" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la canción 05 -->
+                Suena a mañana de domingo, a ventana abierta, a esa calma que
+                solo llega cuando estás. Bendita sea.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ---------------------------- CANCIÓN 06 ---------------------------- -->
+        <li class="track" data-track>
+          <div class="track__row">
+            <img
+              class="track__cover"
+              src="CLDELC.jpg"
+              alt="Portada de Abrázame"
+              width="60"
+              height="60"
+              loading="lazy"
+            />
+            <div class="track__info">
+              <!-- [EDITA AQUÍ] Nombre de la canción y artistas -->
+              <a
+                class="track__title"
+                href="https://open.spotify.com/intl-es/track/26LELuiC7gAN0IjILbam2I?si=4d3074a36992499d"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Escuchar Abrázame"
+                >Con Los Dos En La Cabeza</a
+              >
+              <p class="track__artist">Pedro Guerra, Cruzzi</p>
+            </div>
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-06"
+              aria-label="Ver la dedicatoria de Abrázame"
+              data-song="Abrázame"
+            >
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="track__panel" id="panel-06" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la canción 06 -->
+                Para los días en que las palabras sobran. A veces solo quiero
+                que el mundo se detenga y que estés cerca.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ---------------------------- CANCIÓN 07 ---------------------------- -->
+        <li class="track" data-track>
+          <div class="track__row">
+            <img
+              class="track__cover"
+              src="Comeback.jpg"
+              alt="Portada de La Mujer Que No Soñé"
+              width="60"
+              height="60"
+              loading="lazy"
+            />
+            <div class="track__info">
+              <!-- [EDITA AQUÍ] Nombre de la canción y artistas -->
+              <a
+                class="track__title"
+                href="https://open.spotify.com/intl-es/track/7K6KRwyvE0plDEzxrVmCon?si=4f24810580694aea"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Escuchar La Mujer Que No Soñé"
+                >Come Back</a
+              >
+              <p class="track__artist">The Five Stairsteps</p>
+            </div>
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-07"
+              aria-label="Ver la dedicatoria de La Mujer Que No Soñé"
+              data-song="La Mujer Que No Soñé"
+            >
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="track__panel" id="panel-07" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la canción 07 -->
+                Porque la vida se equivoca de planes y a veces acierta de la
+                manera más inesperada. Tú fuiste el mejor cambio de guion.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ================= SORPRESA 08 · BLOQUEADA HASTA EL 8 DE NOVIEMBRE =================
+             [EDITA AQUÍ] Todo lo que hay dentro de .track__content y
+             .track__panel queda oculto por la máscara hasta la fecha.
+             - Fecha: data-unlock="2026-11-08T00:00:00"
+             - Miniatura: src de .track__cover
+             - Canción: texto de .track__title
+             - Enlace: data-href de .track__title
+             - Artistas: texto de .track__artist
+             - Dedicatoria: texto de .track__description
+             ==================================================================================== -->
+        <li
+          class="track track--locked"
+          data-track
+          data-unlock="2026-11-08T00:00:00"
+        >
+          <div class="track__row">
+            <div class="track__content">
+              <!-- [EDITA AQUÍ] Miniatura de la sorpresa 08 -->
+              <img
+                class="track__cover"
+                src="assets/cover-08.svg"
+                alt="Portada de la canción sorpresa del 8 de noviembre"
+                width="60"
+                height="60"
+                loading="lazy"
+              />
+              <div class="track__info">
+                <!-- [EDITA AQUÍ] Nombre de la canción y enlace externo -->
+                <a
+                  class="track__title"
+                  data-href="AQUI_PEGAS_TU_LINK"
+                  aria-disabled="true"
+                  >Canción sorpresa 08</a
+                >
+                <!-- [EDITA AQUÍ] Artistas -->
+                <p class="track__artist">Artista por confirmar</p>
+              </div>
+            </div>
+
+            <!-- Máscara de bloqueo: solo se ve el candado y el contador.
+                 No borres este bloque; es lo que oculta la sorpresa. -->
+            <div class="track__mask">
+              <span class="track__mask-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect
+                    x="5"
+                    y="10"
+                    width="14"
+                    height="10"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M8 10V7a4 4 0 0 1 8 0v3"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <div class="track__mask-body">
+                <span class="track__mask-kicker">Sorpresa 08</span>
+                <p class="track__countdown" data-countdown role="timer">
+                  <span class="countdown__pending">Calculando…</span>
+                  <noscript>Disponible el 8 de noviembre.</noscript>
+                </p>
+              </div>
+            </div>
+
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-08"
+              aria-label="Se desbloquea el 8 de noviembre de 2026"
+              data-song="la canción sorpresa 08"
+              disabled
+            >
+              <svg
+                class="track__chevron"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="track__panel" id="panel-08" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la sorpresa 08 -->
+                Escribe aquí la dedicatoria que aparecerá cuando llegue el 8 de
+                noviembre.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ================= SORPRESA 09 · BLOQUEADA HASTA EL 15 DE NOVIEMBRE =================
+             [EDITA AQUÍ] Todo lo que hay dentro de .track__content y
+             .track__panel queda oculto por la máscara hasta la fecha.
+             - Fecha: data-unlock="2026-11-15T00:00:00"
+             - Miniatura: src de .track__cover
+             - Canción: texto de .track__title
+             - Enlace: data-href de .track__title
+             - Artistas: texto de .track__artist
+             - Dedicatoria: texto de .track__description
+             ==================================================================================== -->
+        <li
+          class="track track--locked"
+          data-track
+          data-unlock="2026-11-15T00:00:00"
+        >
+          <div class="track__row">
+            <div class="track__content">
+              <!-- [EDITA AQUÍ] Miniatura de la sorpresa 09 -->
+              <img
+                class="track__cover"
+                src="assets/cover-08.svg"
+                alt="Portada de la canción sorpresa del 15 de noviembre"
+                width="60"
+                height="60"
+                loading="lazy"
+              />
+              <div class="track__info">
+                <!-- [EDITA AQUÍ] Nombre de la canción y enlace externo -->
+                <a
+                  class="track__title"
+                  data-href="AQUI_PEGAS_TU_LINK"
+                  aria-disabled="true"
+                  >Canción sorpresa 09</a
+                >
+                <!-- [EDITA AQUÍ] Artistas -->
+                <p class="track__artist">Artista por confirmar</p>
+              </div>
+            </div>
+
+            <!-- Máscara de bloqueo: solo se ve el candado y el contador.
+                 No borres este bloque; es lo que oculta la sorpresa. -->
+            <div class="track__mask">
+              <span class="track__mask-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect
+                    x="5"
+                    y="10"
+                    width="14"
+                    height="10"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M8 10V7a4 4 0 0 1 8 0v3"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <div class="track__mask-body">
+                <span class="track__mask-kicker">Sorpresa 09</span>
+                <p class="track__countdown" data-countdown role="timer">
+                  <span class="countdown__pending">Calculando…</span>
+                  <noscript>Disponible el 15 de noviembre.</noscript>
+                </p>
+              </div>
+            </div>
+
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-09"
+              aria-label="Se desbloquea el 15 de noviembre de 2026"
+              data-song="la canción sorpresa 09"
+              disabled
+            >
+              <svg
+                class="track__chevron"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="track__panel" id="panel-09" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la sorpresa 09 -->
+                Escribe aquí la dedicatoria que aparecerá cuando llegue el 15 de
+                noviembre.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ================= SORPRESA 10 · BLOQUEADA HASTA EL 22 DE NOVIEMBRE =================
+             [EDITA AQUÍ] Todo lo que hay dentro de .track__content y
+             .track__panel queda oculto por la máscara hasta la fecha.
+             - Fecha: data-unlock="2026-11-22T00:00:00"
+             - Miniatura: src de .track__cover
+             - Canción: texto de .track__title
+             - Enlace: data-href de .track__title
+             - Artistas: texto de .track__artist
+             - Dedicatoria: texto de .track__description
+             ==================================================================================== -->
+        <li
+          class="track track--locked"
+          data-track
+          data-unlock="2026-11-22T00:00:00"
+        >
+          <div class="track__row">
+            <div class="track__content">
+              <!-- [EDITA AQUÍ] Miniatura de la sorpresa 10 -->
+              <img
+                class="track__cover"
+                src="assets/cover-08.svg"
+                alt="Portada de la canción sorpresa del 22 de noviembre"
+                width="60"
+                height="60"
+                loading="lazy"
+              />
+              <div class="track__info">
+                <!-- [EDITA AQUÍ] Nombre de la canción y enlace externo -->
+                <a
+                  class="track__title"
+                  data-href="AQUI_PEGAS_TU_LINK"
+                  aria-disabled="true"
+                  >Canción sorpresa 10</a
+                >
+                <!-- [EDITA AQUÍ] Artistas -->
+                <p class="track__artist">Artista por confirmar</p>
+              </div>
+            </div>
+
+            <!-- Máscara de bloqueo: solo se ve el candado y el contador.
+                 No borres este bloque; es lo que oculta la sorpresa. -->
+            <div class="track__mask">
+              <span class="track__mask-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect
+                    x="5"
+                    y="10"
+                    width="14"
+                    height="10"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M8 10V7a4 4 0 0 1 8 0v3"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <div class="track__mask-body">
+                <span class="track__mask-kicker">Sorpresa 10</span>
+                <p class="track__countdown" data-countdown role="timer">
+                  <span class="countdown__pending">Calculando…</span>
+                  <noscript>Disponible el 22 de noviembre.</noscript>
+                </p>
+              </div>
+            </div>
+
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-10"
+              aria-label="Se desbloquea el 22 de noviembre de 2026"
+              data-song="la canción sorpresa 10"
+              disabled
+            >
+              <svg
+                class="track__chevron"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="track__panel" id="panel-10" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la sorpresa 10 -->
+                Escribe aquí la dedicatoria que aparecerá cuando llegue el 22 de
+                noviembre.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ================= SORPRESA 11 · BLOQUEADA HASTA EL 29 DE NOVIEMBRE =================
+             [EDITA AQUÍ] Todo lo que hay dentro de .track__content y
+             .track__panel queda oculto por la máscara hasta la fecha.
+             - Fecha: data-unlock="2026-11-29T00:00:00"
+             - Miniatura: src de .track__cover
+             - Canción: texto de .track__title
+             - Enlace: data-href de .track__title
+             - Artistas: texto de .track__artist
+             - Dedicatoria: texto de .track__description
+             ==================================================================================== -->
+        <li
+          class="track track--locked"
+          data-track
+          data-unlock="2026-11-29T00:00:00"
+        >
+          <div class="track__row">
+            <div class="track__content">
+              <!-- [EDITA AQUÍ] Miniatura de la sorpresa 11 -->
+              <img
+                class="track__cover"
+                src="assets/cover-08.svg"
+                alt="Portada de la canción sorpresa del 29 de noviembre"
+                width="60"
+                height="60"
+                loading="lazy"
+              />
+              <div class="track__info">
+                <!-- [EDITA AQUÍ] Nombre de la canción y enlace externo -->
+                <a
+                  class="track__title"
+                  data-href="AQUI_PEGAS_TU_LINK"
+                  aria-disabled="true"
+                  >Canción sorpresa 11</a
+                >
+                <!-- [EDITA AQUÍ] Artistas -->
+                <p class="track__artist">Artista por confirmar</p>
+              </div>
+            </div>
+
+            <!-- Máscara de bloqueo: solo se ve el candado y el contador.
+                 No borres este bloque; es lo que oculta la sorpresa. -->
+            <div class="track__mask">
+              <span class="track__mask-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect
+                    x="5"
+                    y="10"
+                    width="14"
+                    height="10"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M8 10V7a4 4 0 0 1 8 0v3"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <div class="track__mask-body">
+                <span class="track__mask-kicker">Sorpresa 11</span>
+                <p class="track__countdown" data-countdown role="timer">
+                  <span class="countdown__pending">Calculando…</span>
+                  <noscript>Disponible el 29 de noviembre.</noscript>
+                </p>
+              </div>
+            </div>
+
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-11"
+              aria-label="Se desbloquea el 29 de noviembre de 2026"
+              data-song="la canción sorpresa 11"
+              disabled
+            >
+              <svg
+                class="track__chevron"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="track__panel" id="panel-11" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la sorpresa 11 -->
+                Escribe aquí la dedicatoria que aparecerá cuando llegue el 29 de
+                noviembre.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ================= SORPRESA 12 · BLOQUEADA HASTA EL 6 DE DICIEMBRE =================
+             [EDITA AQUÍ] Todo lo que hay dentro de .track__content y
+             .track__panel queda oculto por la máscara hasta la fecha.
+             - Fecha: data-unlock="2026-12-06T00:00:00"
+             - Miniatura: src de .track__cover
+             - Canción: texto de .track__title
+             - Enlace: data-href de .track__title
+             - Artistas: texto de .track__artist
+             - Dedicatoria: texto de .track__description
+             ==================================================================================== -->
+        <li
+          class="track track--locked"
+          data-track
+          data-unlock="2026-12-06T00:00:00"
+        >
+          <div class="track__row">
+            <div class="track__content">
+              <!-- [EDITA AQUÍ] Miniatura de la sorpresa 12 -->
+              <img
+                class="track__cover"
+                src="assets/cover-08.svg"
+                alt="Portada de la canción sorpresa del 6 de diciembre"
+                width="60"
+                height="60"
+                loading="lazy"
+              />
+              <div class="track__info">
+                <!-- [EDITA AQUÍ] Nombre de la canción y enlace externo -->
+                <a
+                  class="track__title"
+                  data-href="AQUI_PEGAS_TU_LINK"
+                  aria-disabled="true"
+                  >Canción sorpresa 12</a
+                >
+                <!-- [EDITA AQUÍ] Artistas -->
+                <p class="track__artist">Artista por confirmar</p>
+              </div>
+            </div>
+
+            <!-- Máscara de bloqueo: solo se ve el candado y el contador.
+                 No borres este bloque; es lo que oculta la sorpresa. -->
+            <div class="track__mask">
+              <span class="track__mask-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect
+                    x="5"
+                    y="10"
+                    width="14"
+                    height="10"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M8 10V7a4 4 0 0 1 8 0v3"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <div class="track__mask-body">
+                <span class="track__mask-kicker">Sorpresa 12</span>
+                <p class="track__countdown" data-countdown role="timer">
+                  <span class="countdown__pending">Calculando…</span>
+                  <noscript>Disponible el 6 de diciembre.</noscript>
+                </p>
+              </div>
+            </div>
+
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-12"
+              aria-label="Se desbloquea el 6 de diciembre de 2026"
+              data-song="la canción sorpresa 12"
+              disabled
+            >
+              <svg
+                class="track__chevron"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="track__panel" id="panel-12" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la sorpresa 12 -->
+                Escribe aquí la dedicatoria que aparecerá cuando llegue el 6 de
+                diciembre.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ================= SORPRESA 13 · CUMPLEAÑOS (PARTE 1) · BLOQUEADA HASTA EL 10 DE DICIEMBRE =================
+             [EDITA AQUÍ] Todo lo que hay dentro de .track__content y
+             .track__panel queda oculto por la máscara hasta la fecha.
+             - Fecha: data-unlock="2026-12-10T00:00:00"
+             - Miniatura: src de .track__cover
+             - Canción: texto de .track__title
+             - Enlace: data-href de .track__title
+             - Artistas: texto de .track__artist
+             - Dedicatoria: texto de .track__description
+             ==================================================================================== -->
+        <li
+          class="track track--locked track--birthday"
+          data-track
+          data-unlock="2026-12-10T00:00:00"
+        >
+          <div class="track__row">
+            <div class="track__content">
+              <!-- [EDITA AQUÍ] Miniatura de la sorpresa 13 -->
+              <img
+                class="track__cover"
+                src="assets/cover-09.svg"
+                alt="Portada del cumpleaños, parte 1"
+                width="60"
+                height="60"
+                loading="lazy"
+              />
+              <div class="track__info">
+                <!-- [EDITA AQUÍ] Nombre de la canción y enlace externo -->
+                <a
+                  class="track__title"
+                  data-href="AQUI_PEGAS_TU_LINK"
+                  aria-disabled="true"
+                  >Sorpresa 13</a
+                >
+                <!-- [EDITA AQUÍ] Artistas -->
+                <p class="track__artist">Artista por confirmar</p>
+              </div>
+            </div>
+
+            <!-- Máscara de bloqueo: solo se ve el candado y el contador.
+                 No borres este bloque; es lo que oculta la sorpresa. -->
+            <div class="track__mask">
+              <span class="track__mask-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect
+                    x="5"
+                    y="10"
+                    width="14"
+                    height="10"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M8 10V7a4 4 0 0 1 8 0v3"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <div class="track__mask-body">
+                <span class="track__mask-kicker">Sorpresa 13</span>
+                <p class="track__countdown" data-countdown role="timer">
+                  <span class="countdown__pending">Calculando…</span>
+                  <noscript>Disponible el 10 de diciembre.</noscript>
+                </p>
+              </div>
+            </div>
+
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-13"
+              aria-label="Se desbloquea el 10 de diciembre de 2026"
+              data-song="Sorpresa 13"
+              disabled
+            >
+              <svg
+                class="track__chevron"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="track__panel" id="panel-13" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la sorpresa 13 -->
+                Escribe aquí la dedicatoria que aparecerá cuando llegue el 10 de
+                diciembre.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ================= SORPRESA 14 · CUMPLEAÑOS (PARTE 2) · BLOQUEADA HASTA EL 10 DE DICIEMBRE =================
+             [EDITA AQUÍ] Todo lo que hay dentro de .track__content y
+             .track__panel queda oculto por la máscara hasta la fecha.
+             - Fecha: data-unlock="2026-12-10T00:00:00"
+             - Miniatura: src de .track__cover
+             - Canción: texto de .track__title
+             - Enlace: data-href de .track__title
+             - Artistas: texto de .track__artist
+             - Dedicatoria: texto de .track__description
+             ==================================================================================== -->
+        <li
+          class="track track--locked track--birthday"
+          data-track
+          data-unlock="2026-12-10T00:00:00"
+        >
+          <div class="track__row">
+            <div class="track__content">
+              <!-- [EDITA AQUÍ] Miniatura de la sorpresa 14 -->
+              <img
+                class="track__cover"
+                src="assets/cover-09.svg"
+                alt="Portada del cumpleaños, parte 2"
+                width="60"
+                height="60"
+                loading="lazy"
+              />
+              <div class="track__info">
+                <!-- [EDITA AQUÍ] Nombre de la canción y enlace externo -->
+                <a
+                  class="track__title"
+                  data-href="AQUI_PEGAS_TU_LINK"
+                  aria-disabled="true"
+                  >Sorpresa 14</a
+                >
+                <!-- [EDITA AQUÍ] Artistas -->
+                <p class="track__artist">Artista por confirmar</p>
+              </div>
+            </div>
+
+            <!-- Máscara de bloqueo: solo se ve el candado y el contador.
+                 No borres este bloque; es lo que oculta la sorpresa. -->
+            <div class="track__mask">
+              <span class="track__mask-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect
+                    x="5"
+                    y="10"
+                    width="14"
+                    height="10"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M8 10V7a4 4 0 0 1 8 0v3"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <div class="track__mask-body">
+                <span class="track__mask-kicker">Sorpresa 14</span>
+                <p class="track__countdown" data-countdown role="timer">
+                  <span class="countdown__pending">Calculando…</span>
+                  <noscript>Disponible el 10 de diciembre.</noscript>
+                </p>
+              </div>
+            </div>
+
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-14"
+              aria-label="Se desbloquea el 10 de diciembre de 2026"
+              data-song="Sorpresa 14"
+              disabled
+            >
+              <svg
+                class="track__chevron"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="track__panel" id="panel-14" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la sorpresa 14 -->
+                Escribe aquí la dedicatoria que aparecerá cuando llegue el 10 de
+                diciembre.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ================= SORPRESA 15 · CUMPLEAÑOS (PARTE 3) · BLOQUEADA HASTA EL 10 DE DICIEMBRE =================
+             [EDITA AQUÍ] Todo lo que hay dentro de .track__content y
+             .track__panel queda oculto por la máscara hasta la fecha.
+             - Fecha: data-unlock="2026-12-10T00:00:00"
+             - Miniatura: src de .track__cover
+             - Canción: texto de .track__title
+             - Enlace: data-href de .track__title
+             - Artistas: texto de .track__artist
+             - Dedicatoria: texto de .track__description
+             ==================================================================================== -->
+        <li
+          class="track track--locked track--birthday"
+          data-track
+          data-unlock="2026-12-10T00:00:00"
+        >
+          <div class="track__row">
+            <div class="track__content">
+              <!-- [EDITA AQUÍ] Miniatura de la sorpresa 15 -->
+              <img
+                class="track__cover"
+                src="assets/cover-09.svg"
+                alt="Portada del cumpleaños, parte 3"
+                width="60"
+                height="60"
+                loading="lazy"
+              />
+              <div class="track__info">
+                <!-- [EDITA AQUÍ] Nombre de la canción y enlace externo -->
+                <a
+                  class="track__title"
+                  data-href="AQUI_PEGAS_TU_LINK"
+                  aria-disabled="true"
+                  >Sorpresa 15</a
+                >
+                <!-- [EDITA AQUÍ] Artistas -->
+                <p class="track__artist">Artista por confirmar</p>
+              </div>
+            </div>
+
+            <!-- Máscara de bloqueo: solo se ve el candado y el contador.
+                 No borres este bloque; es lo que oculta la sorpresa. -->
+            <div class="track__mask">
+              <span class="track__mask-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect
+                    x="5"
+                    y="10"
+                    width="14"
+                    height="10"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M8 10V7a4 4 0 0 1 8 0v3"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <div class="track__mask-body">
+                <span class="track__mask-kicker">Sorpresa 15</span>
+                <p class="track__countdown" data-countdown role="timer">
+                  <span class="countdown__pending">Calculando…</span>
+                  <noscript>Disponible el 10 de diciembre.</noscript>
+                </p>
+              </div>
+            </div>
+
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-15"
+              aria-label="Se desbloquea el 10 de diciembre de 2026"
+              data-song="Sorpresa 15"
+              disabled
+            >
+              <svg
+                class="track__chevron"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="track__panel" id="panel-15" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la sorpresa 15 -->
+                Escribe aquí la dedicatoria que aparecerá cuando llegue el 10 de
+                diciembre.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ================= SORPRESA 16 · BLOQUEADA HASTA EL 13 DE DICIEMBRE =================
+             [EDITA AQUÍ] Todo lo que hay dentro de .track__content y
+             .track__panel queda oculto por la máscara hasta la fecha.
+             - Fecha: data-unlock="2026-12-13T00:00:00"
+             - Miniatura: src de .track__cover
+             - Canción: texto de .track__title
+             - Enlace: data-href de .track__title
+             - Artistas: texto de .track__artist
+             - Dedicatoria: texto de .track__description
+             ==================================================================================== -->
+        <li
+          class="track track--locked"
+          data-track
+          data-unlock="2026-12-13T00:00:00"
+        >
+          <div class="track__row">
+            <div class="track__content">
+              <!-- [EDITA AQUÍ] Miniatura de la sorpresa 16 -->
+              <img
+                class="track__cover"
+                src="assets/cover-08.svg"
+                alt="Portada de la canción sorpresa del 13 de diciembre"
+                width="60"
+                height="60"
+                loading="lazy"
+              />
+              <div class="track__info">
+                <!-- [EDITA AQUÍ] Nombre de la canción y enlace externo -->
+                <a
+                  class="track__title"
+                  data-href="AQUI_PEGAS_TU_LINK"
+                  aria-disabled="true"
+                  >Canción sorpresa 16</a
+                >
+                <!-- [EDITA AQUÍ] Artistas -->
+                <p class="track__artist">Artista por confirmar</p>
+              </div>
+            </div>
+
+            <!-- Máscara de bloqueo: solo se ve el candado y el contador.
+                 No borres este bloque; es lo que oculta la sorpresa. -->
+            <div class="track__mask">
+              <span class="track__mask-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect
+                    x="5"
+                    y="10"
+                    width="14"
+                    height="10"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M8 10V7a4 4 0 0 1 8 0v3"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <div class="track__mask-body">
+                <span class="track__mask-kicker">Sorpresa 16</span>
+                <p class="track__countdown" data-countdown role="timer">
+                  <span class="countdown__pending">Calculando…</span>
+                  <noscript>Disponible el 13 de diciembre.</noscript>
+                </p>
+              </div>
+            </div>
+
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-16"
+              aria-label="Se desbloquea el 13 de diciembre de 2026"
+              data-song="la canción sorpresa 16"
+              disabled
+            >
+              <svg
+                class="track__chevron"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="track__panel" id="panel-16" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la sorpresa 16 -->
+                Escribe aquí la dedicatoria que aparecerá cuando llegue el 13 de
+                diciembre.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ================= SORPRESA 17 · BLOQUEADA HASTA EL 22 DE DICIEMBRE =================
+             [EDITA AQUÍ] Todo lo que hay dentro de .track__content y
+             .track__panel queda oculto por la máscara hasta la fecha.
+             - Fecha: data-unlock="2026-12-22T00:00:00"
+             - Miniatura: src de .track__cover
+             - Canción: texto de .track__title
+             - Enlace: data-href de .track__title
+             - Artistas: texto de .track__artist
+             - Dedicatoria: texto de .track__description
+             ==================================================================================== -->
+        <li
+          class="track track--locked"
+          data-track
+          data-unlock="2026-12-22T00:00:00"
+        >
+          <div class="track__row">
+            <div class="track__content">
+              <!-- [EDITA AQUÍ] Miniatura de la sorpresa 17 -->
+              <img
+                class="track__cover"
+                src="assets/cover-08.svg"
+                alt="Portada de la canción sorpresa del 22 de diciembre"
+                width="60"
+                height="60"
+                loading="lazy"
+              />
+              <div class="track__info">
+                <!-- [EDITA AQUÍ] Nombre de la canción y enlace externo -->
+                <a
+                  class="track__title"
+                  data-href="AQUI_PEGAS_TU_LINK"
+                  aria-disabled="true"
+                  >Canción sorpresa 17</a
+                >
+                <!-- [EDITA AQUÍ] Artistas -->
+                <p class="track__artist">Artista por confirmar</p>
+              </div>
+            </div>
+
+            <!-- Máscara de bloqueo: solo se ve el candado y el contador.
+                 No borres este bloque; es lo que oculta la sorpresa. -->
+            <div class="track__mask">
+              <span class="track__mask-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect
+                    x="5"
+                    y="10"
+                    width="14"
+                    height="10"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M8 10V7a4 4 0 0 1 8 0v3"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <div class="track__mask-body">
+                <span class="track__mask-kicker">Sorpresa 17</span>
+                <p class="track__countdown" data-countdown role="timer">
+                  <span class="countdown__pending">Calculando…</span>
+                  <noscript>Disponible el 22 de diciembre.</noscript>
+                </p>
+              </div>
+            </div>
+
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-17"
+              aria-label="Se desbloquea el 22 de diciembre de 2026"
+              data-song="la canción sorpresa 17"
+              disabled
+            >
+              <svg
+                class="track__chevron"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="track__panel" id="panel-17" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la sorpresa 17 -->
+                Escribe aquí la dedicatoria que aparecerá cuando llegue el 22 de
+                diciembre.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ================= SORPRESA 18 · BLOQUEADA HASTA EL 29 DE DICIEMBRE =================
+             [EDITA AQUÍ] Todo lo que hay dentro de .track__content y
+             .track__panel queda oculto por la máscara hasta la fecha.
+             - Fecha: data-unlock="2026-12-29T00:00:00"
+             - Miniatura: src de .track__cover
+             - Canción: texto de .track__title
+             - Enlace: data-href de .track__title
+             - Artistas: texto de .track__artist
+             - Dedicatoria: texto de .track__description
+             ==================================================================================== -->
+        <li
+          class="track track--locked"
+          data-track
+          data-unlock="2026-12-29T00:00:00"
+        >
+          <div class="track__row">
+            <div class="track__content">
+              <!-- [EDITA AQUÍ] Miniatura de la sorpresa 18 -->
+              <img
+                class="track__cover"
+                src="assets/cover-08.svg"
+                alt="Portada de la canción sorpresa del 29 de diciembre"
+                width="60"
+                height="60"
+                loading="lazy"
+              />
+              <div class="track__info">
+                <!-- [EDITA AQUÍ] Nombre de la canción y enlace externo -->
+                <a
+                  class="track__title"
+                  data-href="AQUI_PEGAS_TU_LINK"
+                  aria-disabled="true"
+                  >Canción sorpresa 18</a
+                >
+                <!-- [EDITA AQUÍ] Artistas -->
+                <p class="track__artist">Artista por confirmar</p>
+              </div>
+            </div>
+
+            <!-- Máscara de bloqueo: solo se ve el candado y el contador.
+                 No borres este bloque; es lo que oculta la sorpresa. -->
+            <div class="track__mask">
+              <span class="track__mask-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect
+                    x="5"
+                    y="10"
+                    width="14"
+                    height="10"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M8 10V7a4 4 0 0 1 8 0v3"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <div class="track__mask-body">
+                <span class="track__mask-kicker">Sorpresa 18</span>
+                <p class="track__countdown" data-countdown role="timer">
+                  <span class="countdown__pending">Calculando…</span>
+                  <noscript>Disponible el 29 de diciembre.</noscript>
+                </p>
+              </div>
+            </div>
+
+            <button
+              class="track__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="panel-18"
+              aria-label="Se desbloquea el 29 de diciembre de 2026"
+              data-song="la canción sorpresa 18"
+              disabled
+            >
+              <svg
+                class="track__chevron"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 9l7 7 7-7"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="track__panel" id="panel-18" aria-hidden="true">
+            <div class="track__panel-inner">
+              <p class="track__description">
+                <!-- [EDITA AQUÍ] Descripción de la sorpresa 18 -->
+                Escribe aquí la dedicatoria que aparecerá cuando llegue el 29 de
+                diciembre.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ol>
+
+      <!-- Aviso para lectores de pantalla cuando una fila se desbloquea -->
+      <p
+        class="visually-hidden"
+        id="unlock-status"
+        role="status"
+        aria-live="polite"
+      ></p>
+
+      <div class="page-foot">
+        <a class="link-return" href="index.html">
+          <svg
+            width="15"
+            height="15"
+            viewBox="0 0 24 24"
+            fill="none"
+            aria-hidden="true"
+          >
+            <path
+              d="M20 12H5M11 6l-6 6 6 6"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          Volver al inicio
+        </a>
+      </div>
+    </main>
+
+    <footer class="colophon">
+      Cada canción con una forma distinta que venis a mi.
+    </footer>
+  </body>
+</html>
